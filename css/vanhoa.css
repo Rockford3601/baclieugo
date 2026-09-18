@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
+    font-family: 'Oswald', 'Be Vietnam Pro';
+}
+
+.nen_background{    
+    background-color: #d6c6b3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+.khung_phiatren{
+            background-color: #FBF5EB;
+
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+            box-sizing: border-box;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+
+
+}
+
+.khung_logo {
+    width: 350px;
+    height: 80%;
+    display: flex;
+        background-color: #FBF5EB;
+        
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.logo {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.khung_menu {
+    width: 70%;
+    min-height: 70px;
+    background-color: #B2744D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-radius: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.khung_menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.khung_menu li {
+    margin: 0 10px;
+}
+
+.khung_menu a {
+    text-decoration: none;
+    color: #FBF5EB;
+    font-size: 18px;
+}
+
+.khung_menu li a {
+    padding: 10px 30px;
+    transition: background-color 0.5s ease;
+        border-radius: 15px;
+
+}
+
+.khung_menu li a.active {
+    background-color: #FBF5EB;
+    color: #B2744D;
+    border-radius: 15px;
+}
+
+.khung_menu li a:hover {
+    background-color: #FBF5EB;
+    color: #B2744D;
+    border-radius: 15px;
+}
+
+
+
+.khung_noidung {
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.khung_anh_main{
+    background-color: #2d8986;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        border-radius: 10px;
+
+    
+}
+
+
+.anh_main {
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+        border-radius: 10px;
+
+}
+
+.khung_footer {
+    width: 100%;
+    height: 80px;
+    background-color: #B2744D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBF5EB;
+    border-radius: 10px;
+}
+
+
+
+<!-- Box gioi thieu nhanh bac lieu --
+.dankim2{
+    height: 550px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    border-radius: 10px;
+    background-color: #FBF5EB;
+    
+
+}
+
+.dankim2 img{
+    width: 550px;
+    height: 100%;
+    object-fit: cover;
+        border-radius: 10px;
+}
+
+
+
+.noidung_gt_bl{
+    padding: 15px 10px;
+    
+}
+
+.noidung_gt_bl h2{
+    color: #442217;}
+
+.noidung_gt_bl p{
+    color: #442217;
+}
+
+.noidung_gt_bl h4{
+    color: #a71a1a;
+}
+
+.noidung_gt_bl button{
+    background-color: #a71a1a;
+    text-align: center;
+    color: #FBF5EB;
+    padding: 10px;
+    border-radius: 55px;
+    transition: background-color 0.5s ease;
+}
+
+.noidung_gt_bl button:hover{
+    color: #B2744D;
+    background-color: rgb(18, 56, 56);
+    
+}
+
+.gt_bl{
+    
+    width: 100%;
+    padding:15px;
+    box-sizing: border-box;
+    background-color: #d6c6b3;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.anh3{
+    height: 100%;
+    padding: 20px 50px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #b7a48d;
+}
+
+.anh3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+        border-radius: 10px;
+}
+
+.lichsu_tieubieu{
+    text-align: center;
+    color:#a71a1a;
+    text-decoration-line: bold;
+}
+
+
+.grid_nhaccu_old{
+    background-color: #442217;
+    width: 100%;
+    height: 5px;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
