@@ -1,0 +1,121 @@
+@import url('lichsu.css');
+
+/* Hero Banner */
+.sukien_hero {
+    text-align: center;
+    padding: 35px 20px;
+    background: linear-gradient(135deg, #784230, #442217);
+    border-radius: 12px;
+    border: 1px solid #d4af37;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hero_badge {
+    display: inline-block;
+    padding: 5px 14px;
+    background: #d4af37;
+    color: #111;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.sukien_hero h1 {
+    color: #ffd700;
+    margin: 5px 0 10px 0;
+    font-size: 2rem;
+}
+
+.sukien_hero p {
+    color: #f0f0f0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Khối Thẻ Sự Kiện */
+.event_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.event_card {
+    display: flex;
+    background: #442217;
+    border: 1px solid #f39c12;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #f39c12;
+    transition: 0.3s ease;
+}
+
+.event_card:hover {
+    border-color: #ffd700;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 650px) {
+    .event_card {
+        flex-direction: column;
+    }
+}
+
+.event_date {
+    background: #f39c12;
+    color: #111;
+    padding: 20px;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.event_date .day {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.event_date .month {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-top: 6px;
+    letter-spacing: 0.5px;
+}
+
+.event_info {
+    padding: 20px;
+    flex: 1;
+}
+
+.event_tag {
+    color: #f39c12;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.event_info h3 {
+    color: #fff;
+    margin: 6px 0 10px 0;
+    font-size: 1.3rem;
+}
+
+.event_info p {
+    color: #e5e5e5;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0 0 12px 0;
+}
+
+.event_location {
+    color: #ffd700;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
