@@ -1,4 +1,4 @@
-/*Tablet*/
+/* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 
     /* ---------- HEADER ---------- */
@@ -82,6 +82,8 @@
     .gt_bl {
         width: 100%;
         gap: 20px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 15px;
     }
 
     .noidung_gt_bl {
@@ -136,12 +138,6 @@
 
 
     /* ---------- GRID CARD ---------- */
-
-    .gt_bl {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        width: 100%;
-        padding: 15px;
-    }
 
     .tag_diadiem {
         min-width: 0;
@@ -493,12 +489,12 @@
 
     /* ---------- FOOTER ---------- */
 
-    .khung_footer {
-        width: 100%;
-        min-height: 70px;
-        height: auto;
-        padding: 15px 10px;
-        text-align: center;
+    Khung_footer {
+        Width: 100%;
+        Min-height: 70px;
+        Height: auto;
+        Padding: 15px 10px;
+        Text-align: center;
     }
 
     .khung_footer p {
@@ -507,4 +503,3 @@
         line-height: 1.5;
     }
 }
-```
